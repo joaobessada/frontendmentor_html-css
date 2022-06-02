@@ -1,4 +1,4 @@
-A collection of all my Frontend Mentor solutions 
+# A collection of all my Frontend Mentor solutions 
 
 !! HTML/CSS ONLY !!
 

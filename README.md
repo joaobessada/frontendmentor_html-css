@@ -1,2 +1,6 @@
-# frontendmentor_html-css
-A collection of all my frontendmentor challenges (HTML/CSS ONLY!)
+A collection of all my Frontend Mentor solutions 
+
+!! HTML/CSS ONLY !!
+
+All the projects are hosted on Vercel! :)
+

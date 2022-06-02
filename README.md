@@ -1,6 +1,7 @@
-# A collection of all my Frontend Mentor solutions 
+# About the collection!
 
-!! HTML/CSS ONLY !!
-
-All the projects are hosted on Vercel! :)
+- Those are my first projects! 
+- HTML/CSS only!
+- All the projects are hosted on Vercel! 
+- Enjoy :)
 

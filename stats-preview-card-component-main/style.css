@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* font setting */
+
+.title, .text, .stats h1 {
+    font-family: Inter;
+}
+
+.stats p {
+    font-family: Lexend Deca;
+}
+
+/* -- */
+
+body {
+    background-color: #0a0c1b;
+    color: #feffff;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+}
+
+main {
+    width: 570px;
+    height: 446px;
+    background-color: #1c1938;
+
+    padding: 50px;
+
+    border-radius: 5px 0px 0px 5px;
+}
+
+
+.image {
+    position: relative;
+}
+
+.image img {
+    border-radius: 0px 5px 5px 0px;
+}
+
+.image-overlay {
+    width: 540px;
+    height: 446px;
+
+    background-color: #59099b;
+
+    position: absolute;
+    top: 0;
+
+    opacity: 0.45;
+}
+
+.image-overlay:hover {
+    opacity: 0;
+    transition: 1.5s;
+}
+
+
+.title {
+    margin-bottom: 25px;
+    font-size: 1.2rem;
+}
+
+.title span {
+    color: #9d64cd;
+}
+
+.title span:hover {
+    filter: blur(2px);
+    transition: 1s;
+    cursor: pointer;
+}
+
+.text {
+    width: 400px;
+
+    margin-bottom: 100px;
+    color: #89879d;
+    font-size: 1rem;
+
+    line-height: 25px;
+}
+
+.stats {
+    display: flex;
+    gap: 60px;
+
+    font-size: 0.8rem;
+}
+
+.stats h1:hover {
+    color: #9d64cd;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.stats p {
+    letter-spacing: 1px;
+    color: #89879d;
+}
+
+@media (max-width: 1000px) {
+
+    body {
+        display: flex;
+        flex-direction: column-reverse;
+
+    }
+
+    .image img {
+        border-radius: 5px 5px 0px 0px;
+        width: 350px;
+    }
+
+    .image-overlay {
+        width: 350px;
+        height: 290px;
+    
+        background-color: #59099b;
+    
+        position: absolute;
+        top: 0;
+    
+        opacity: 0.45;
+    }
+
+    main {
+        width: 350px;
+        height: 520px;
+
+        border-radius: 0px 0px 5px 5px;
+
+        padding: 0;
+        margin-top: -5px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .title, .text, .stats {
+        width: 300px;
+    }
+
+    .title {
+        font-size: 0.90rem;
+        text-align: center;
+
+        margin-top: 20px;
+
+    }
+
+    .text {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .stats {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .queries {
+        margin-right: 10px;
+    }
+}

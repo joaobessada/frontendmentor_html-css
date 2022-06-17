@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+
+    font-family: 'Outfit', sans-serif;
+}
+
+body {
+    background-color: #0d1a2d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    background-color: #15273f;
+    width: 450px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    border-radius: 15px;
+}
+
+.images-container {
+    position: relative;
+}
+
+.card-img {
+    width: 400px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.card-img-icon {
+    width: 400px;
+    height: 400px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    object-fit: contain;
+    position: absolute;
+    top: 0;
+    opacity: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-img-icon img {
+    width: 100px;
+}
+
+.card-img-icon:hover {
+    opacity: 1;
+    transition: 03s;
+    cursor: pointer;
+
+}
+
+.img-align {
+    width: 400px;
+}
+
+.card-title {
+    color: white;
+    font-size: 1.8rem;
+    margin-bottom: 23px;
+}
+
+.card-title:hover {
+    color: #0dffff;;
+    transition: 1000ms;
+    cursor: pointer;
+}
+
+.card-text {
+    color: #7e93b0;
+    font-size: 1.29rem;
+    margin-bottom: 23px;
+}
+
+.card-icons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 23px;
+}
+
+.card-icons img {
+    object-fit: contain;
+}
+
+.eth {
+    display: flex;
+    gap: 8px;
+    color: #0dffff;
+    font-weight: 600;
+}
+
+.days {
+    display: flex;
+    gap: 8px;
+    color: #8eabd7;
+}
+
+.line {
+    background-color: #2f4159;
+    height: 0.5px;
+    margin-bottom: 23px;
+}
+
+.card-footer {
+    display: flex;
+    margin-bottom: 30px;
+    align-items: center;
+    gap: 15px;
+}
+
+.card-avatar {
+    width: 50px;
+    border: 1px solid white;
+    border-radius: 100%;
+}
+
+.card-footer p {
+    color: #91a8c7;
+}
+
+.card-footer span {
+    color: white;
+}
+
+.card-footer span:hover {
+    color: #0dffff;;
+    transition: 1000ms;
+    cursor: pointer;
+}

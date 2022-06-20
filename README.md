@@ -15,4 +15,6 @@
 - 06 - UNFINISHED!
 - 07 - [single-price-grid-component-master](https://joaobessada.github.io/frontendmentor_html-css/7-single-price-grid-component-master/)
 - 08 - UNFINISHED!
-- 09  - [testimonials-grid-section-main](https://joaobessada.github.io/frontendmentor_html-css/9-testimonials-grid-section-main/)
+- 09 - [testimonials-grid-section-main](https://joaobessada.github.io/frontendmentor_html-css/9-testimonials-grid-section-main/)
+- 10 - UNFINISHED!
+- 11 - [clipboard-landing-page-master](https://joaobessada.github.io/frontendmentor_html-css/11-clipboard-landing-page-master)
